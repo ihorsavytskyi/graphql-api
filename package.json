@@ -1,0 +1,19 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "API base of movies on graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihorsavytskyi/graphql-api.git"
+  },
+  "author": "I.Savytskyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ihorsavytskyi/graphql-api/issues"
+  },
+  "homepage": "https://github.com/ihorsavytskyi/graphql-api#readme"
+}
