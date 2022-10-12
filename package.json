@@ -4,7 +4,8 @@
   "description": "API base of movies on graphql",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "nodemon --exec babel-node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/ihorsavytskyi/graphql-api/issues"
   },
-  "homepage": "https://github.com/ihorsavytskyi/graphql-api#readme"
+  "homepage": "https://github.com/ihorsavytskyi/graphql-api#readme",
+  "dependencies": {
+    "@graphql-yoga/node": "^2.13.13",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "graphql": "^15.2.0",
+    "graphql-yoga": "^2.13.13",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.19.4"
+  }
 }
